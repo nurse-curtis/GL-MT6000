@@ -22,7 +22,8 @@ env:
 jobs:
   check_commits:
     name: Check for new commits
-    runs-on: ubuntu-24.04-arm
+    # runs-on: ubuntu-24.04-arm
+    runs-on: self-hosted
     outputs:
       remote_branch: ${{ steps.check_commits.outputs.remote_branch }}
       release_prefix: ${{ steps.check_commits.outputs.release_prefix }}
