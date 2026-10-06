@@ -1,7 +1,5 @@
 name: Build OpenWrt for GL-MT6000
 
-runs-on: self-hosted
-
 permissions:
   contents: write
   actions: write
